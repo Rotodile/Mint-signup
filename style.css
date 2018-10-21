@@ -47,3 +47,44 @@ p {
     font-size: 14px;
     color: gray;
 }
+
+form {
+    text-align: left;
+}
+
+form input {
+    width: 280px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #C1C5C8;
+    height: 30px;
+    margin-top: 10px;
+}
+
+form label {
+    font-size: 14px;
+}
+
+.call {
+    color: black;
+    font-size: 10px;
+}
+
+form button {
+    background-color: #0077C5;
+    color: white;
+    border: #0077C5;
+    border-radius: 4px;
+    width: 297px;
+    height: 33px;
+    font-size: 16px;
+}
+
+.btn-lock {
+    width: 15px;
+}
+
+.policy {
+    font-size: 13px;
+}

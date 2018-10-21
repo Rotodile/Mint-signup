@@ -26,10 +26,22 @@
             <span>Everything Intuit.</span>
             <p>Create an account for all of Intuit's products including Mind.<a href="#">Learn more</a></p>
             <form action="#" method="post">
-                <fieldset >
-                    <label for="email">Email address</label>
-                </fieldset>
+                    <label for="email">Email address</label><br>
+                    <input maxlength="100" required="required" type="email">
+                    <br><br><br>
+                    <label for="phone">Phone (recommended)</label><br>
+                    <input maxlength="100" required="required" type="tel">
+                    <p class="call">Standard call, messaging or data rates may apply</p>
+                    <br><br>
+                    <label for="password">Password</label><br>
+                    <input maxlength="30" required="required" type="password">
+                    <br><br><br>
+                    <button type="submit" name="SignUp" data-clicked-text="Creating ...">
+                        <img src="lock_white_1120163-1.png" class="btn-lock">
+                    Create account
+                    </button>
             </form>
+                    <p class="policy">By clicking Create Account. you agree to our <a href="#">License Agreement</a> and have read acknowledge our <a href="#">Privacy Statement</a>.</p>
         </div>
 </body>
 </html>
