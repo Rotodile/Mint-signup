@@ -1,12 +1,49 @@
-.mint-signup {
-    margin-left: 45%;
+body {
+    padding: 70px;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #f1f1f1;
+}
+
+.top {
+    margin-left: 38%;
 }
 
 .logo {
     width: 120px;
-    margin-left: -1.5%;
+    margin-left: 12%;
+    margin-bottom: 2%;
 }
 
 .icon {
     width: 25px;
-} 
+    margin-bottom: -1%;
+}
+
+span {
+    font-size: 19px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.signup-form {
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    margin: auto;
+    overflow: visible;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 350px;
+    text-align: center;
+}
+
+.signup-form span {
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+p {
+    font-size: 14px;
+    color: gray;
+}
