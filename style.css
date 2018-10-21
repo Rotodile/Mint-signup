@@ -1,7 +1,8 @@
 body {
     padding: 70px;
+    padding-bottom: 5px;
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #f1f1f1;
+    background: #eceef1;
 }
 
 .top {
@@ -19,7 +20,7 @@ body {
     margin-bottom: -1%;
 }
 
-span {
+.heading {
     font-size: 19px;
     color: gray;
     margin-right: 5px;
@@ -87,4 +88,29 @@ form button {
 
 .policy {
     font-size: 13px;
+    line-height: 20px;
+}
+
+.form-footer {
+    font-size: 9.8px;
+    background: #eceef1;
+    height: 35px;
+    margin-bottom: -10%;
+    margin-left: -10%;
+    margin-right: -10.5%;
+    padding-top: 8%;
+}
+
+a {
+    color: #0077C5;
+    text-decoration: none;
+}
+
+.footer {
+    font-size: 14px;
+    color: gray;
+}
+
+.footer-content {
+    text-align: center;
 }
