@@ -1,2 +1,2 @@
 # Mint Signup Page
-This is my [Html-form project](https://areebaishtiaq.github.io/Mint-signup/) from "The Odin Project" Curriculum.
+This is my [Signup Form Project](https://ribaishtiaq.github.io/Mint-signup/).
